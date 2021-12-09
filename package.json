@@ -1,6 +1,6 @@
 {
   "name": "@microsoft/omnichannel-voice-video-calling-react-native",
-  "version": "0.1.0",
+  "version": "0.1.0-0",
   "description": "Omnichannel Voice and Video Calling SDK on React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -37,13 +37,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/microsoft/microsoft-omnichannel-voice-video-calling-react-native",
+  "repository": "https://github.com/microsoft/omnichannel-voice-video-calling-react-native",
   "author": "Microsoft Corporation",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/microsoft/microsoft-omnichannel-voice-video-calling-react-native/issues"
+    "url": "https://github.com/microsoft/omnichannel-voice-video-calling-react-native/issues"
   },
-  "homepage": "https://github.com/microsoft/microsoft-omnichannel-voice-video-calling-react-native#readme",
+  "homepage": "https://github.com/microsoft/omnichannel-voice-video-calling-react-native#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

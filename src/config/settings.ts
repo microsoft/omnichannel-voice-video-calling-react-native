@@ -1,4 +1,4 @@
-const ariaTelemetryKey = '6f628aaeda714bb7ba009235b8018dbf-ba8b8526-18cf-4c7d-a44c-c25d6e508d3f-7806';
+const ariaTelemetryKey = 'c7655518acf1403f93ff6b9f77942f0a-d01a02fd-6b50-4de3-a566-62eda11f93bc-7083';
 
 export {
     ariaTelemetryKey
