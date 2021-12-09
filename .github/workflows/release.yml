@@ -3,7 +3,7 @@ name: Release CI
 on:
   push:
     branches:
-      - init
+      - main
     tags:
       - 'v*'
 
