@@ -4,7 +4,6 @@ import { StyleSheet, View, ScrollView, TextInput, Button, TouchableHighlight, Pl
 
 import { OmnichannelChatSDK } from '@microsoft/omnichannel-chat-sdk';
 import createVoiceVideoCalling, {LocalVideoView, RemoteVideoView} from '@microsoft/omnichannel-voice-video-calling-react-native';
-import fetchOmnichannelConfig from '../utils/fetchOmnichannelConfig';
 import IncomingCall from './IncomingCall';
 import CurrentCallMenu from './CurrentCallMenu';
 
@@ -24,7 +23,6 @@ export default function App() {
   const [organizationURL, onChangeOrganizationURL] = React.useState(null);
 
   const onLoadChatWidget = async () => {
-    //const omnichannelConfig = fetchOmnichannelConfig();
     if (widgetId && organizationId && organizationURL) {
       console.log("Omnichannel Config");
       let omnichannelConfig = {};

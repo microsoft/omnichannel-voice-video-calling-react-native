@@ -14,7 +14,7 @@ PODS:
     - ReactCommon/turbomodule/core (= 0.66.3)
   - fmt (6.2.1)
   - glog (0.3.5)
-  - microsoft-omnichannel-voice-video-calling-react-native (0.1.0-0):
+  - microsoft-omnichannel-voice-video-calling-react-native (0.1.0-main.e1a6235):
     - AzureCommunicationCalling (= 2.0.1beta.1)
     - AzureCommunicationCommon (= 1.0.2)
     - React-Core
@@ -412,7 +412,7 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: 6192956c9e346013d5f1809ba049af720b11c6a4
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: 5337263514dd6f09803962437687240c5dc39aa4
-  microsoft-omnichannel-voice-video-calling-react-native: 7ef74e4e3a29e16bd36145b38c9dd04805233651
+  microsoft-omnichannel-voice-video-calling-react-native: 8253ab7047ebbea9234dd763b0b8050f2856568f
   RCT-Folly: a21c126816d8025b547704b777a2ba552f3d9fa9
   RCTRequired: 59d2b744d8c2bf2d9bc7032a9f654809adcf7d50
   RCTTypeSafety: d0aaf7ccae5c70a4aaa3a5c3e9e0db97efae760e
