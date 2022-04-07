@@ -12,7 +12,7 @@
   "dependencies": {
     "@microsoft/omnichannel-voice-video-calling-react-native": "0.1.0-main.e1a6235",
     "react": "17.0.2",
-    "react-native": "0.66.3",
+    "react-native": "0.68.0",
     "react-native-gesture-handler": "^2.0.0"
   },
   "devDependencies": {
@@ -22,7 +22,7 @@
     "babel-jest": "^27.4.2",
     "eslint": "^8.4.0",
     "jest": "^27.4.3",
-    "metro-react-native-babel-preset": "^0.68.0",
+    "metro-react-native-babel-preset": "^0.66.2",
     "node-libs-react-native": "^1.2.1",
     "react-native-get-random-values": "^1.7.2",
     "react-native-randombytes": "^3.6.1",
