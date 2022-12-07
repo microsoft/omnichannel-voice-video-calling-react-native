@@ -10,10 +10,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@microsoft/omnichannel-voice-video-calling-react-native": "0.1.0-main.fcc7a76",
+    "@microsoft/omnichannel-voice-video-calling-react-native": "file:microsoft-omnichannel-voice-video-calling-react-native-0.1.0-0.tgz",
     "@react-native/normalize-color": "^2.0.0",
     "react": "17.0.2",
-    "react-native": "0.68.1",
+    "react-native": "^0.68.5",
     "react-native-gesture-handler": "^2.0.0"
   },
   "devDependencies": {

@@ -25,7 +25,7 @@
     "test": "jest",
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "prepare": "bob build && cp -r src/external/aria lib/external",
+    "prepare": "bob build",
     "release": "release-it",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
@@ -153,7 +153,7 @@
   "dependencies": {
     "@microsoft/omnichannel-chat-sdk": "^1.0.1-main.1082fd3",
     "ansi-regex": "^6.0.1",
-    "react-native": "^0.68.1",
+    "react-native": "^0.68.5",
     "react-native-gesture-handler": "^1.10.3",
     "strip-ansi": "^7.0.1"
   }
