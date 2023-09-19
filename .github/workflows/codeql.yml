@@ -38,7 +38,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'cpp', 'java', 'javascript', 'ruby', 'swift' ]
+        language: [ 'cpp', 'java', 'javascript' ]
         # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python', 'ruby', 'swift' ]
         # Use only 'java' to analyze code written in Java, Kotlin or both
         # Use only 'javascript' to analyze code written in JavaScript, TypeScript or both
@@ -76,7 +76,7 @@ jobs:
     #     echo "Run, Build Application using script"
     #     ./location_of_script_within_repo/buildscript.sh
 
-    - if: matrix.language == 'cpp' || matrix.language == 'javascript'
+    - if: matrix.language == 'javascript'
       name: Autobuild
       uses: github/codeql-action/autobuild@v2
 
