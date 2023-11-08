@@ -1,6 +1,6 @@
 {
   "name": "@microsoft/omnichannel-voice-video-calling-react-native",
-  "version": "0.1.0-0-234-1",
+  "version": "0.1.0-0",
   "description": "Omnichannel Voice and Video Calling SDK on React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -25,7 +25,7 @@
     "test": "jest",
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "prepare": "bob build",
+    "prepare": "bob build && cp -r src/external/aria lib/external",
     "release": "release-it",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
