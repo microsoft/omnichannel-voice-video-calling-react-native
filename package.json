@@ -151,7 +151,7 @@
     ]
   },
   "dependencies": {
-    "@microsoft/omnichannel-chat-sdk": "^1.5.5",
+    "@microsoft/omnichannel-chat-sdk": "^1.5.6",
     "ansi-regex": "^6.0.1",
     "react-native": "^0.68.1",
     "react-native-gesture-handler": "^2.0.0",
